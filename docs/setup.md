@@ -5,14 +5,14 @@ This guide will walk you through the process of setting up the Umami-Preprocessi
 Creating a virtual environment helps keep your Python environment isolated and organized.
 While it's not essential, we highly recommend using one.
 You can set up a virtual environment using either Conda or Python's venv.
-UPP requires Python 3.8 or later.
+UPP requires Python 3.8.10 or later.
 
 === "conda"
 
     Set up a fresh [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) or [mamba](https://github.com/conda-forge/miniforge#install) environment:
 
     ```bash
-    mamba create -n upp python
+    mamba create -n upp python=3.8.10
     mamba activate upp
     ```
 
